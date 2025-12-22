@@ -1,36 +1,131 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Home Page – Next.js + Tailwind
 
-## Getting Started
+Este projeto é uma **página inicial moderna** criada com **Next.js (App Router)** e **Tailwind CSS**, utilizando o componente otimizado `next/image` e suporte nativo a **Dark Mode**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## ✨ Visão Geral
+
+A página serve como **landing page inicial** de um projeto Next.js, oferecendo:
+
+* 🎨 Design minimalista e moderno
+* 🌗 Suporte automático a **tema claro e escuro**
+* ⚡ Performance otimizada com `next/image`
+* 📱 Layout totalmente responsivo
+
+Ideal como ponto de partida para aplicações web modernas.
+
+---
+
+## 🧩 Tecnologias Utilizadas
+
+* **Next.js 13+ (App Router)**
+* **React 18**
+* **Tailwind CSS**
+* **next/image** (otimização de imagens)
+
+---
+
+## 📁 Estrutura do Arquivo
+
+```txt
+app/
+ └── page.tsx
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> O arquivo `page.tsx` é a página raiz da aplicação e é renderizado automaticamente pelo App Router.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧠 O que o Código Faz
 
-## Learn More
+### 🔹 Layout Principal
 
-To learn more about Next.js, take a look at the following resources:
+* Centraliza o conteúdo vertical e horizontalmente
+* Limita a largura máxima para melhor leitura
+* Usa espaçamentos amplos para um visual clean
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🔹 Dark Mode
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* Utiliza classes Tailwind como:
 
-## Deploy on Vercel
+  * `dark:bg-black`
+  * `dark:text-zinc-50`
+* O tema é alternado automaticamente conforme as preferências do sistema
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🔹 Imagens Otimizadas
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Uso do componente `Image` do Next.js:
+
+  * Lazy loading
+  * Otimização automática
+  * Melhor performance e SEO
+
+---
+
+## 🎨 Conceito Visual
+
+* 🎯 Tipografia simples e legível
+* 🧊 Cores neutras (`zinc`, `black`, `white`)
+* 🧱 Botões arredondados com hover suave
+* 🌓 Experiência consistente em light e dark mode
+
+---
+
+## 🧪 Representação Visual
+
+```
+┌───────────────────────────────┐
+│   Next.js Logo                │
+│                               │
+│   To get started, edit        │
+│   the page.tsx file.          │
+│                               │
+│   Links: Templates / Learning │
+│                               │
+│ [ Deploy Now ] [ Documentation ]
+└───────────────────────────────┘
+```
+
+---
+
+## ▶️ Como Executar o Projeto
+
+```bash
+npm install
+npm run dev
+```
+
+Depois acesse:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🚀 Possíveis Evoluções
+
+* Substituir o conteúdo por uma **landing page real**
+* Integrar com **CMS ou API**
+* Adicionar **animações com Framer Motion**
+* Criar páginas adicionais (About, Contact, Products)
+* Implementar autenticação
+
+---
+
+## 📌 Observações Importantes
+
+* As imagens (`/next.svg`, `/vercel.svg`) devem estar na pasta `/public`
+* O layout já está pronto para escalar
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Emerson Sabino**
+Full Stack Developer
+
+
+
+
