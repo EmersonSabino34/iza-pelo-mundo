@@ -10,9 +10,12 @@ type City = {
   id: string;
   name: { pt: string; en: string };
   images: string[];
+  imagesCaptions?: { pt: string; en: string }[];
   culture: { pt: string; en: string };
   cuisine: { pt: string; en: string };
   sights: { pt: string; en: string }[];
+  sightsImages?: string[];
+  cuisineImages?: string[];
 };
 
 const CITIES: City[] = [
@@ -237,6 +240,9 @@ export default function Home() {
                         className="inline-block"
                       >
                         <div className="bg-green-600 px-3 py-2 rounded-lg">{lang === "pt" ? "WhatsApp" : "WhatsApp"}</div>
+                      </a>
+                      <a href={`/city/${city.id}`} className="inline-block">
+                        <Button variant="ghost" className="px-4 py-2">{lang === "pt" ? "Ver detalhes" : "View details"}</Button>
                       </a>
                     </div>
 
