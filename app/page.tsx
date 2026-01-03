@@ -23,6 +23,15 @@ const CITIES: City[] = [
       "https://images.unsplash.com/photo-1542744173-8e7e53415bb0",
       "https://images.unsplash.com/photo-1501183638710-841dd1904471"
     ],
+    sightsImages: [
+      "https://images.unsplash.com/photo-1512453979798-5ea266f8880c", // Teatro Amazonas
+      "https://images.unsplash.com/photo-1505672678657-cc7037095e2d", // Encontro das Águas
+      "https://images.unsplash.com/photo-1542736667-069246bdbc6d"  // Mercado Adolpho Lisboa
+    ],
+    cuisineImages: [
+      "https://images.unsplash.com/photo-1543352634-6e3b1d2f7d0b", // peixe/amazonian dish
+      "https://images.unsplash.com/photo-1525610553991-2bede1a236e2"  // tacaca-like
+    ],
     culture: {
       pt: "Cultura rica com influências indígenas e ribeirinhas, festas locais e música regional.",
       en: "Rich culture with indigenous and riverside influences, local festivals and regional music."
@@ -43,6 +52,15 @@ const CITIES: City[] = [
     images: [
       "https://images.unsplash.com/photo-1509395176047-4a66953fd231",
       "https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba"
+    ],
+    sightsImages: [
+      "https://images.unsplash.com/photo-1505685296765-3a2736de412f", // Cristo Redentor
+      "https://images.unsplash.com/photo-1508074779533-5f3c4b6f3f8e", // Pão de Açúcar
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"  // Copacabana
+    ],
+    cuisineImages: [
+      "https://images.unsplash.com/photo-1604908554027-1a0d7c02b3a3", // feijoada-like
+      "https://images.unsplash.com/photo-1498654896293-37aacf113fd9"  // seafood
     ],
     culture: {
       pt: "Fusão de ritmos, samba, carnaval e vida praiana vibrante.",
@@ -174,6 +192,35 @@ export default function Home() {
                           <li key={i}>{s[lang]}</li>
                         ))}
                       </ul>
+
+                      {city.sightsImages && city.sightsImages.length > 0 && (
+                        <div className="grid grid-cols-3 gap-2 mt-3">
+                          {city.sightsImages.map((img, idx) => (
+                            <img
+                              key={idx}
+                              src={img}
+                              alt={`${city.name.pt} sight ${idx + 1}`}
+                              className="w-full h-20 object-cover rounded-md"
+                            />
+                          ))}
+                        </div>
+                      )}
+                    </div>
+
+                    <div className="mb-3">
+                      <strong className="block mb-1">{lang === "pt" ? "Culinária (fotos)" : "Cuisine (photos)"}:</strong>
+                      {city.cuisineImages && city.cuisineImages.length > 0 && (
+                        <div className="grid grid-cols-2 gap-2">
+                          {city.cuisineImages.map((img, idx) => (
+                            <img
+                              key={idx}
+                              src={img}
+                              alt={`${city.name.pt} cuisine ${idx + 1}`}
+                              className="w-full h-24 object-cover rounded-md"
+                            />
+                          ))}
+                        </div>
+                      )}
                     </div>
 
                     <div className="flex items-center gap-3 mt-4">
