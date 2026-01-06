@@ -20,7 +20,6 @@ export default function ManausPage() {
     "Encontro das Águas",
     "Mercado Adolpho Lisboa"
   ];
-
   
   const cuisineImages = [
     "https://images.unsplash.com/photo-1543352634-6e3b1d2f7d0b",
