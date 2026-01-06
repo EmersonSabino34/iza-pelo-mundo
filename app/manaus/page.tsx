@@ -21,6 +21,7 @@ export default function ManausPage() {
     "Mercado Adolpho Lisboa"
   ];
 
+  
   const cuisineImages = [
     "https://images.unsplash.com/photo-1543352634-6e3b1d2f7d0b",
     "https://images.unsplash.com/photo-1525610553991-2bede1a236e2"
