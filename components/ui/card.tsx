@@ -21,6 +21,7 @@ export const Card = forwardRef<HTMLDivElement, CardProps>(
 );
 
 Card.displayName = "Card";
+
 export const CardContent = forwardRef<HTMLDivElement, CardProps>(
   ({ children, className = "", ...props }, ref) => (
     <div ref={ref} {...props} className={cn("p-6", className)}>
