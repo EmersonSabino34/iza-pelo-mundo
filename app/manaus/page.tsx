@@ -41,6 +41,7 @@ export default function ManausPage() {
     } catch (e) {}
   }, [likes]);
 
+  
   useEffect(() => {
     try {
       localStorage.setItem("manaus_comments", JSON.stringify(comments));
