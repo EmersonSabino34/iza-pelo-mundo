@@ -9,6 +9,7 @@ export default function ManausPage() {
   const [comments, setComments] = useState<string[]>([]);
   const [draft, setDraft] = useState("");
 
+  
   const images = [
     "https://images.unsplash.com/photo-1542744173-8e7e53415bb0",
     "https://images.unsplash.com/photo-1501183638710-841dd1904471",
