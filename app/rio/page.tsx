@@ -48,6 +48,7 @@ export default function RioPage() {
         <h1 className="text-3xl font-bold mb-4">Rio de Janeiro</h1>
         <Slider images={images} altPrefix="Rio" />
 
+        
         <section className="mt-6 bg-white/5 rounded-lg p-4">
           <h2 className="text-xl font-semibold mb-2">Culture / Cultura</h2>
           <p>Fusion of rhythms, samba, carnival and vibrant beach life. / Fusão de ritmos, samba e carnaval.</p>
