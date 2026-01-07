@@ -79,6 +79,7 @@ export default function RioPage() {
           <a href="https://wa.me/351938983505" target="_blank" rel="noreferrer" className="bg-green-600 px-4 py-2 rounded-lg">WhatsApp</a>
         </div>
 
+        
         <section className="mt-4">
           <textarea value={draft} onChange={(e) => setDraft(e.target.value)} className="w-full p-3 rounded bg-white/5" placeholder="Leave a comment / Deixe um comentário" />
           <div className="flex gap-2 mt-2">
