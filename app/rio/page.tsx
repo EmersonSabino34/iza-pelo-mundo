@@ -73,6 +73,7 @@ export default function RioPage() {
           </div>
         </section>
 
+        
         <div className="mt-4 flex gap-2">
           <Button onClick={() => setLikes((l) => l + 1)} variant="primary">Like ({likes})</Button>
           <a href="https://wa.me/351938983505" target="_blank" rel="noreferrer" className="bg-green-600 px-4 py-2 rounded-lg">WhatsApp</a>
