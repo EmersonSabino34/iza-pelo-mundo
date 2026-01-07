@@ -45,7 +45,6 @@ Notas
 - Para produção, use uma chave segura e remova o fallback para localStorage se desejar consistência centralizada.
 
 ---------------
-
 # English
 
 Iza Pelo Mundo — travel showcase built with Next.js (App Router).
