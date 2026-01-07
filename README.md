@@ -21,7 +21,6 @@ Rodar em desenvolvimento / Run dev
 npm run dev
 # A aplicação estará disponível em http://localhost:3000
 ```
-
 Build / Production
 ```bash
 npm run build
