@@ -16,7 +16,6 @@ Instalação / Install
 cd iza-pelo-mundo
 npm install
 ```
-
 Rodar em desenvolvimento / Run dev
 ```bash
 npm run dev
