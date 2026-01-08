@@ -36,7 +36,6 @@ export default function Slider({ images, auto = true, interval = 4000, altPrefix
   }
 
   if (!images || images.length === 0) return null;
-
   return (
     <div className="relative w-full">
       <div className="overflow-hidden rounded-md">
