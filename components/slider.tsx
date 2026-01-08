@@ -50,6 +50,7 @@ export default function Slider({ images, auto = true, interval = 4000, altPrefix
             {captions[index][lang || "pt"] || ""}
           </div>
         )}
+        
       </div>
       <button onClick={prev} className="absolute left-2 top-1/2 -translate-y-1/2 bg-black/30 p-2 rounded-full">
         ‹
