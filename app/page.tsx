@@ -86,6 +86,7 @@ export default function Home() {
   const [likes, setLikes] = useState<Record<string, number>>({ manaus: 0, rio: 0 });
   const [comments, setComments] = useState<Record<string, string[]>>({ manaus: [], rio: [] });
   const [draft, setDraft] = useState<Record<string, string>>({ manaus: "", rio: "" });
+  
 
   // Load persisted state from localStorage on mount
   useEffect(() => {
