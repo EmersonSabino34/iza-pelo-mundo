@@ -167,6 +167,7 @@ export default function Home() {
                       alt={city.name.pt}
                       className="w-full h-56 md:h-full object-cover rounded-lg mb-2"
                     />
+                    
                     <div className="text-xs text-white/80 mb-3">{lang === "pt" ? "Foto destacada" : "Featured photo"}</div>
                     <div className="grid grid-cols-2 gap-2">
                       <img
