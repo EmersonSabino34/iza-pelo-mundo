@@ -45,6 +45,7 @@ export default function Slider({ images, auto = true, interval = 4000, altPrefix
           alt={`${altPrefix} ${index + 1}`}
           className={`w-full h-64 object-cover transition-opacity duration-500 ${fade ? "opacity-50" : "opacity-100"}`}
         />
+        
         {captions && captions[index] && (
           <div className="absolute left-0 right-0 bottom-0 bg-black/50 text-white text-sm p-2 text-center">
             {captions[index][lang || "pt"] || ""}
