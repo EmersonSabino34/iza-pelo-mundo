@@ -70,7 +70,6 @@ export default function RioPage() {
             ))}
           </div>
         </section>
-
         
         <div className="mt-4 flex gap-2">
           <Button onClick={() => setLikes((l) => l + 1)} variant="primary">Like ({likes})</Button>
