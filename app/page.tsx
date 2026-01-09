@@ -122,7 +122,6 @@ export default function Home() {
     setComments((s) => ({ ...s, [id]: [...(s[id] || []), text] }));
     setDraft((d) => ({ ...d, [id]: "" }));
   }
-
   return (
     <div className="min-h-screen bg-gradient-to-b from-emerald-600 via-teal-500 to-sky-400 text-white">
       <section className="container mx-auto px-6 py-12">
