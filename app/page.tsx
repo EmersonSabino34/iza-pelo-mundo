@@ -254,6 +254,7 @@ export default function Home() {
                         placeholder={lang === "pt" ? "Deixe um comentário..." : "Leave a comment..."}
                         className="w-full p-3 rounded-lg bg-white/5 text-sm placeholder-white/60"
                       />
+                      
                       <div className="flex items-center gap-2 mt-2">
                         <Button onClick={() => submitComment(city.id)} variant="primary" className="px-4 py-2">
                           {lang === "pt" ? "Comentar" : "Comment"}
