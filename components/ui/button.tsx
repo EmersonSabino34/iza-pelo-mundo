@@ -6,6 +6,7 @@ type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
   children: React.ReactNode;
   variant?: "primary" | "ghost" | "outline";
 };
+
 export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   ({ children, className = "", variant = "primary", ...props }, ref) => {
     const base =
