@@ -35,6 +35,7 @@ export default function ManausPage() {
     } catch (e) {}
   }, []);
 
+  
   useEffect(() => {
     try {
       localStorage.setItem("manaus_likes", String(likes));
