@@ -15,6 +15,7 @@ export default function RioPage() {
     "https://images.unsplash.com/photo-1505685296765-3a2736de412f"
   ];
 
+  
   const sights = [
     "Cristo Redentor",
     "Pão de Açúcar",
