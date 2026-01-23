@@ -15,6 +15,7 @@ export default function ManausPage() {
     "https://images.unsplash.com/photo-1512453979798-5ea266f8880c"
   ];
 
+  
   const sights = [
     "Teatro Amazonas",
     "Encontro das Águas",
