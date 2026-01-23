@@ -40,6 +40,7 @@ export default function ManausPage() {
       localStorage.setItem("manaus_likes", String(likes));
     } catch (e) {}
   }, [likes]);
+
   
   useEffect(() => {
     try {
