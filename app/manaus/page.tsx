@@ -14,7 +14,6 @@ export default function ManausPage() {
     "https://images.unsplash.com/photo-1501183638710-841dd1904471",
     "https://images.unsplash.com/photo-1512453979798-5ea266f8880c"
   ];
-
   
   const sights = [
     "Teatro Amazonas",
