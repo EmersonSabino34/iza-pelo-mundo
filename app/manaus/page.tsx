@@ -1,6 +1,7 @@
 "use client";
 
 import Slider from "@/components/slider";
+
 import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
 
