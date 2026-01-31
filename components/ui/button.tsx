@@ -18,7 +18,6 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         ? "bg-transparent text-white"
         : "bg-transparent border border-white/20 text-white";
 
-    
     return (
       <button ref={ref} {...props} className={cn(base, variantClass, className)}>
         {children}
