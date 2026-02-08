@@ -29,4 +29,5 @@ export const CardContent = forwardRef<HTMLDivElement, CardProps>(
 );
 
 CardContent.displayName = "CardContent";
+
 export default Card;
