@@ -2,7 +2,6 @@
 
 Projeto Next.js (App Router) para apresentar viagens e experiências no Brasil.
 
-
 Resumo / Summary
 - Página principal bilíngue (PT/EN) com opções de cidade.
 - Páginas separadas por cidade em `/city/[id]` com slider, galerias, likes e comentários.
