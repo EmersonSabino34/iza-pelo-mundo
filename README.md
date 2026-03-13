@@ -11,7 +11,6 @@ Requisitos / Requirements
 - Node.js 18+ (recomendado)
 - npm
 
-
 Instalação / Install
 ```bash
 cd iza-pelo-mundo
