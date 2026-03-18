@@ -27,6 +27,7 @@ npm run build
 npm start
 ```
 
+
 API & Persistência
 - Endpoints: `GET /api/cities/{id}` e `POST /api/cities/{id}`
 - Os POSTs exigem header `x-api-key`. Configure `CITY_API_KEY` no ambiente (padrão de desenvolvimento: `dev-key`).
