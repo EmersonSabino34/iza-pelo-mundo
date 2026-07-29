@@ -3,7 +3,6 @@
 import Slider from "@/components/slider";
 import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
-
 export default function ManausPage() {
   const [likes, setLikes] = useState<number>(0);
   
