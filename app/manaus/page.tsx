@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 
 export default function ManausPage() {
   const [likes, setLikes] = useState<number>(0);
+  
   const [comments, setComments] = useState<string[]>([]);
   const [draft, setDraft] = useState("");
 
