@@ -17,6 +17,7 @@ export default function Slider({ images, auto = true, interval = 4000, altPrefix
   const [index, setIndex] = useState(0);
   const [fade, setFade] = useState(false);
 
+
   useEffect(() => {
     if (!auto || images.length <= 1) return;
     const t = setInterval(() => setIndex((i) => (i + 1) % images.length), interval);
