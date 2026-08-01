@@ -8,7 +8,6 @@ type SliderProps = {
   interval?: number;
   altPrefix?: string;
   captions?: { pt?: string; en?: string }[];
-
   lang?: "pt" | "en";
 };
 
