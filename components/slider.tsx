@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 
+
 type SliderProps = {
   images: string[];
   auto?: boolean;
