@@ -11,7 +11,6 @@ type SliderProps = {
   lang?: "pt" | "en";
 };
 
-
 export default function Slider({ images, auto = true, interval = 4000, altPrefix = "slide", captions, lang }: SliderProps) {
   const [index, setIndex] = useState(0);
   const [fade, setFade] = useState(false);
