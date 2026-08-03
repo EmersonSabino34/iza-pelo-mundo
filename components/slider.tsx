@@ -21,6 +21,7 @@ export default function Slider({ images, auto = true, interval = 4000, altPrefix
     return () => clearInterval(t);
   }, [auto, images.length, interval]);
 
+
   useEffect(() => {
     setFade(true);
     const t = setTimeout(() => setFade(false), 500);
