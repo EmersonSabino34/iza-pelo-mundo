@@ -4,7 +4,6 @@ import { cn } from "@/lib/utils";
 
 type CardProps = React.HTMLAttributes<HTMLDivElement> & {
   children: React.ReactNode;
-
 };
 export const Card = forwardRef<HTMLDivElement, CardProps>(
   ({ children, className = "", ...props }, ref) => {
