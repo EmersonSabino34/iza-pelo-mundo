@@ -8,7 +8,6 @@ type CardProps = React.HTMLAttributes<HTMLDivElement> & {
 export const Card = forwardRef<HTMLDivElement, CardProps>(
   ({ children, className = "", ...props }, ref) => {
     return (
-
       <div
         ref={ref}
         {...props}
