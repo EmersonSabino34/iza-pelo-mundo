@@ -9,7 +9,6 @@ type SliderProps = {
   altPrefix?: string;
   captions?: { pt?: string; en?: string }[];
   lang?: "pt" | "en";
-  
 };
 
 export default function Slider({ images, auto = true, interval = 4000, altPrefix = "slide", captions, lang }: SliderProps) {
